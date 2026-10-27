@@ -1,0 +1,8 @@
+﻿Segment,opportunity,customers,offered,risk-blocked,main products,main channel,renewal timing,deferred,exp. disbursement (bn VND),per offered customer (m VND),exp. loss rate,share of value
+Stars,Cross-sell / top-up now,266519,259097,7422,"BNPL 39%, CL 37%",Telesales + app,0.3811931438804772,0.1475084620817686,451.946119264,1.7443124361300981,0.008154254761610812,0.7318341740889017
+Sleeping Gems,Re-activate (digital),163809,162721,1088,"CL 51%, BNPL 34%",App push / SMS,0.4939313303138501,0.00048549357489199304,114.540838113,0.7039093793241192,0.008501425736376566,0.18547542746110504
+Growth,"Controlled growth (small, down payment)",97332,94115,3217,"BNPL 82%, CC 15%",Telesales + app,0.3823407533336875,0.1414014769165383,47.585122146,0.5056061429740212,0.021615518540524795,0.07705435909340129
+Cool Prospects,Nurture (no credit yet),129334,0,1757,–,App / SMS,,,0.0,0.0,,0.0
+Stressed Seekers,"Protect: counselling, no new credit",66766,0,11163,–,App / SMS,,,0.0,0.0,,0.0
+At-Risk Dormant,"Protect: monitor, no marketing",89906,0,18738,–,Monitoring only,,,0.0,0.0,,0.0
+Insufficient History,Build repayment history (starter BNPL/CD),186862,186105,757,"BNPL 98%, CD 2%",App push / SMS,0.0008436097901722146,0.015249455952285001,3.48055093,0.01870208178178985,0.0006399828776532225,0.005636039356591962

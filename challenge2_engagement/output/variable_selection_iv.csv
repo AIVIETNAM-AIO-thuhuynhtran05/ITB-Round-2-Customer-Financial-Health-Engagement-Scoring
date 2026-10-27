@@ -1,0 +1,47 @@
+variable,scorecard,dimension,IV,strength,PSI T0→Snapshot,status
+rec_touch_days,Booked customers,Recency,0.1301764757828821,medium,0.04011050737681032,dropped: overlaps n_scoring_12m (r = 0.76)
+rec_scoring_days,Booked customers,Recency,0.13837544996978884,medium,0.03712659894844311,dropped: overlaps n_scoring_12m (r = 0.77)
+rec_booking_days,Booked customers,Recency,0.11469669576786168,medium,5.914082797794338e-05,selected
+active_months_12m,Booked customers,Frequency,0.3113953268480497,strong,0.011352653836900393,selected
+n_scoring_12m,Booked customers,Frequency,0.18234526658595707,medium,0.012509915492324247,selected
+n_signed_24m,Booked customers,Frequency,0.23965553143860707,medium,0.0016551360706837848,selected
+recent_activity_share,Booked customers,Frequency,0.2512827505434241,medium,7.064171072523515,dropped: unstable over time (PSI 7.06)
+n_inbound_calls_30d,Booked customers,Interaction behavior,0.0039050677598614324,very weak,1.346160369390913e-13,dropped: IV 0.004 < 0.02
+n_call_refuse_30d,Booked customers,Interaction behavior,0.001203335119687965,very weak,0.0,dropped: IV 0.001 < 0.02
+n_channels_12m,Booked customers,Interaction behavior,0.12561796598528555,medium,0.006758965120491251,dropped: overlaps n_scoring_12m (r = 0.86)
+self_service_share_12m,Booked customers,Interaction behavior,0.1235977601902077,medium,0.006692933907532225,dropped: overlaps n_scoring_12m (r = 0.84)
+scoring_to_app_rate_12m,Booked customers,Interaction behavior,0.15840732096423019,medium,0.044433507969731494,dropped: overlaps n_scoring_12m (r = 0.85)
+n_self_leads_12m,Booked customers,Lead activity,0.0007993919019182072,very weak,0.00010827328647696654,dropped: IV 0.001 < 0.02
+n_company_leads_12m,Booked customers,Lead activity,0.01688309813602023,very weak,0.0004119652184125491,dropped: IV 0.017 < 0.02
+lead_accept_rate_12m,Booked customers,Lead activity,0.034845230600873724,weak,0.000490477886797662,selected
+lead_not_interest_rate_12m,Booked customers,Lead activity,0.0289411469996516,weak,5.469110058581678e-05,dropped: weight ≤ 0 once other variables are in (coef -0.01)
+n_lead_deals_12m,Booked customers,Lead activity,1.7582919269890085e-07,very weak,5.2347373204297675e-06,dropped: IV 0.000 < 0.02
+median_accept_lag_h_12m,Booked customers,Lead activity,0.04759658307755997,weak,0.0068004271243336046,selected
+n_products_scored_12m,Booked customers,Product interaction,0.17284552924849314,medium,0.006693579766206202,dropped: overlaps n_scoring_12m (r = 0.89)
+n_products_held,Booked customers,Product interaction,0.10577572850126823,medium,0.0024661268094924135,dropped: weight ≤ 0 once other variables are in (coef -0.06)
+has_revolving,Booked customers,Product interaction,0.014660682867437717,very weak,0.002338170443763261,dropped: IV 0.015 < 0.02
+n_running,Booked customers,Product interaction,0.06880178454490281,weak,0.07679732593298223,dropped: weight ≤ 0 once other variables are in (coef -0.23)
+repeat_rate,Booked customers,Product interaction,0.14891257368044006,medium,0.026112531030462807,selected
+n_apps_24m,Booked customers,Application journey,0.29990681016724025,medium,0.0034937854640918224,dropped: overlaps active_months_12m (r = 0.71)
+cancel_rate_24m,Booked customers,Application journey,0.08312223386941503,weak,0.0,dropped: expected direction (dec) not supported by data
+median_app_gap_days,Booked customers,Application journey,0.26434512981050895,medium,0.020369556355449858,selected
+rec_touch_days,Thin-file (never booked),Recency,0.10309819329262847,medium,0.2739426597786082,dropped: unstable over time (PSI 0.27)
+rec_scoring_days,Thin-file (never booked),Recency,0.10864906783165686,medium,0.21018265911933942,selected
+active_months_12m,Thin-file (never booked),Frequency,0.009831499933985268,very weak,0.016501473278197214,dropped: IV 0.010 < 0.02
+n_scoring_12m,Thin-file (never booked),Frequency,0.03562227959651579,weak,0.0042567497792297335,dropped: overlaps n_products_scored_12m (r = 0.97)
+recent_activity_share,Thin-file (never booked),Frequency,0.011226702280331093,very weak,11.268466475073286,dropped: IV 0.011 < 0.02
+n_inbound_calls_30d,Thin-file (never booked),Interaction behavior,0.0,very weak,0.0,dropped: IV 0.000 < 0.02
+n_call_refuse_30d,Thin-file (never booked),Interaction behavior,0.0,very weak,0.0,dropped: IV 0.000 < 0.02
+n_channels_12m,Thin-file (never booked),Interaction behavior,0.03356670305425874,weak,0.006133470253105341,dropped: overlaps n_products_scored_12m (r = 0.92)
+self_service_share_12m,Thin-file (never booked),Interaction behavior,0.048715307951610054,weak,0.010860937921225843,selected
+scoring_to_app_rate_12m,Thin-file (never booked),Interaction behavior,0.020530731893538136,weak,0.03184466411246059,selected
+n_self_leads_12m,Thin-file (never booked),Lead activity,0.030356208243335635,weak,1.3541916820632563e-08,dropped: overlaps lead_not_interest_rate_12m (r = 0.79)
+n_company_leads_12m,Thin-file (never booked),Lead activity,0.04306974984429592,weak,4.209132797548107e-06,selected
+lead_accept_rate_12m,Thin-file (never booked),Lead activity,0.06740017998067012,weak,1.3221955018855174e-06,dropped: overlaps lead_not_interest_rate_12m (r = 1.00)
+lead_not_interest_rate_12m,Thin-file (never booked),Lead activity,0.0680033108395736,weak,1.3221955018855174e-06,selected
+n_lead_deals_12m,Thin-file (never booked),Lead activity,0.0,very weak,0.0,dropped: IV 0.000 < 0.02
+median_accept_lag_h_12m,Thin-file (never booked),Lead activity,0.04597386367588669,weak,6.6694965535415056e-06,dropped: overlaps lead_not_interest_rate_12m (r = 0.76)
+n_products_scored_12m,Thin-file (never booked),Product interaction,0.03718184915828432,weak,0.006770461240692062,dropped: weight ≤ 0 once other variables are in (coef -0.31)
+n_apps_24m,Thin-file (never booked),Application journey,0.032208629728892685,weak,0.004655648496972696,selected
+cancel_rate_24m,Thin-file (never booked),Application journey,0.39350220804599845,strong,0.0,dropped: expected direction (dec) not supported by data
+median_app_gap_days,Thin-file (never booked),Application journey,0.04020206974264158,weak,0.019993444086901145,selected

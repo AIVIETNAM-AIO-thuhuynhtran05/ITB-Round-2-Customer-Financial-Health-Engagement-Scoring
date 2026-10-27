@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+*.parquet
+*.xlsx
+Round3_BI10_dataset/
+data_clean/
+Clean_data/

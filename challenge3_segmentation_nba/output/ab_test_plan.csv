@@ -1,0 +1,8 @@
+﻿segment,customers,primary_metric,baseline,n_needed_per_arm,control_share,control_customers,feasible
+Stars,266519,60-day conversion,0.11115825040611096,3408,0.1,26651,True
+Sleeping Gems,163809,60-day conversion,0.042193202459776584,9756,0.1,16380,True
+Growth,97332,60-day conversion,0.10799700228949177,3522,0.1,9733,True
+Cool Prospects,129334,60-day conversion,0.03847510084574771,10744,0.1,12933,True
+Stressed Seekers,66766,overdue rate (lower is better),0.26808555252673516,1135,0.1,6676,True
+At-Risk Dormant,89906,overdue rate (lower is better),0.26954819478121594,1126,0.1,8990,True
+Insufficient History,186862,60-day conversion,0.02529199113327948,16593,0.1,18686,True
